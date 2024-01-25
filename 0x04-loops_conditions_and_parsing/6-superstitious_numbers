@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# Displays number from 1 to 20, adds "bad luck from China" for 4th itr, "bad luck from Japan"
+# for 9th itr, "bad luck from italy" for 17th itr
+
+i=1
+
+while [ $i -le 20 ]
+do
+	echo "$i"
+	case $i in
+		"4") echo "bad luck from China";;
+		"9") echo "bad luck from Japan";;
+		"17") echo "bad luck from Italy";;
+	esac
+	(( i++ ))
+done
