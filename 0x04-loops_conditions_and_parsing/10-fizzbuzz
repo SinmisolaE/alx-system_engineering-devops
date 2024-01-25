@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+# displays from 1 to 100
+# display fizzbuzz if mod 3 and 5
+# display fizz if mod 3
+# display buzz if mod 5
+
+for i in {1..100}
+do
+	if (( i%3 == 0 && i%5 == 0))
+	then
+		echo "FizzBuzz"
+	elif (( i%3 == 0))
+	then
+		echo "Fizz"
+	elif (( i%5 == 0))
+	then
+		echo "Buzz"
+	else
+		echo "$i"
+	fi
+done
