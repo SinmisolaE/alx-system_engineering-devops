@@ -26,12 +26,12 @@ int main(void)
 }
 
 /**
- * infinte_while - infinite sleep
+ * infinite_while - infinite sleep
  * Return: 0
  */
 int infinite_while(void)
 {
 	while (1)
-		sleep (1);
+		sleep(1);
 	return (0);
 }
