@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Displays processes with bas keyword
+
+ps -auxf | grep bash
