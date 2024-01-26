@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Stops a pricess
+
+kill -l 
