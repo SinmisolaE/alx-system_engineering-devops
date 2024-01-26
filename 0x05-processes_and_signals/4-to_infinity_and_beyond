@@ -2,7 +2,7 @@
 # Displays "To infinity and beyond" indefinitely
 # Sleep 2 between each iteration
 
-while [ 1 ]
+while true
 do
 	echo "To infinity and bayond"
 	sleep 2
