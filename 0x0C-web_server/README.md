@@ -1,1 +1,1 @@
-0x0C-web_server
+7-puppet_install_nginx_web_server.pp
