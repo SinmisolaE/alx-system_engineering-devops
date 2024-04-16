@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#the script accepts one argument and displays the user
+sudo -u "$1" whoami
